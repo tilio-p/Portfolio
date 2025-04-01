@@ -7,3 +7,7 @@ function openLightbox() {
 }
 
 image.addEventListener("click", openLightbox);
+
+import Swiper, { Navigation, Pagination } from "swiper";
+
+Swiper.use([Navigation, Pagination]);
