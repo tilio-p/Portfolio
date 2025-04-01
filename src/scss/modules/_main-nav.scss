@@ -1,0 +1,19 @@
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  height: 27px;
+}
+
+.main-nav a {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.main-nav a:hover {
+  color: black;
+  font-weight: 800;
+  font-size: 25px;
+}
