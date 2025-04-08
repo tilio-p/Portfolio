@@ -10,18 +10,58 @@
     <a href="index.html">accueil</a>
     <h1>projects</h1>
 
-    <extends
-      src="project.html"
-      locals='{"title":"Vin naturel", "cat":"vidéo"}'
-    ></extends>
-    <extends
-      src="project.html"
-      locals='{"title":"Documentaire","cat":"dessin"}'
-    ></extends>
-    <extends
-      src="project.html"
-      locals='{"title":"légende urbaine", "cat":"Photo"}'
-    ></extends>
+    <extends src="project.html" locals='{"title":"Videos"}'></extends>
+    <extends src="project.html" locals='{"title":"Dessins"}'></extends>
+    <extends src="project.html" locals='{"title":"Photos"}'></extends>
+    <div class="photolist">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <extends
+              src="woodcard.html"
+              locals='{"img":"photos/grenouille.jpg"}'
+            ></extends>
+          </div>
+          <div class="col-6">
+            <extends
+              src="woodcard.html"
+              locals='{"img":"photos/fauteuil.webp"}'
+            ></extends>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6">
+            <extends
+              src="woodcard.html"
+              locals='{"img":"photos/motoreflet.webp"}'
+            ></extends>
+          </div>
+          <div class="col-6">
+            <extends
+              src="woodcard.html"
+              locals='{"img":"photos/jaune.webp"}'
+            ></extends>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6">
+            <extends
+              src="woodcard.html"
+              locals='{"img":"photos/motoreflet.webp"}'
+            ></extends>
+          </div>
+          <div class="col-6">
+            <extends
+              src="woodcard.html"
+              locals='{"img":"photos/jaune.webp"}'
+            ></extends>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <extends src="footer.html"></extends>
 
     <script src="js/main.js" type="module"></script>

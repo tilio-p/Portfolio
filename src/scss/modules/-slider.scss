@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.swiper-container {
+  max-width: 800px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.swiper-slide {
+  padding: 100px;
+  text-align: center;
+  background: linear-gradient(90deg, #fcd5ce 0%, #f8edeb 100%);
+}
+
+.swiper-slide h2 {
+  margin-bottom: 25px;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ff0000;
+}
