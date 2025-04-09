@@ -32,7 +32,7 @@
     <div class="container">
       <div class="row">
         <div class="col-2 offset-2">
-          <a class="navbutton">Precedent</a>
+          <a class="navbutton navpre">Precedent</a>
         </div>
         <div class="col-4">
           <extends
@@ -41,10 +41,43 @@
           ></extends>
         </div>
         <div class="col-2">
-          <a class="navbutton">Suivant</a>
+          <a class="navbutton navnext">Suivant</a>
         </div>
       </div>
     </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <extends
+                  src="woodcard.html"
+                  locals='{"img":"photos/grenouille.jpg"}'
+                ></extends>
+              </div>
+              <div class="swiper-slide">
+                <extends
+                  src="woodcard.html"
+                  locals='{"img":"photos/fauteuil.webp"}'
+                ></extends>
+              </div>
+              <div class="swiper-slide">
+                <extends
+                  src="woodcard.html"
+                  locals='{"img":"photos/motoreflet.webp"}'
+                ></extends>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -52,16 +85,7 @@
         </div>
       </div>
     </div>
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-      </div>
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-    </div>
+
     <extends src="photo-detail.html"></extends>
     <script src="js/main.js" type="module"></script>
   </body>

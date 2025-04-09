@@ -8,16 +8,19 @@ function openLightbox() {
 
 image.addEventListener("click", openLightbox);
 
-import Swiper, { Navigation, Pagination } from "swiper";
+import Swiper, { Navigation } from "swiper";
 
-Swiper.use([Navigation, Pagination]);
+Swiper.use([Navigation]);
 
 const swiper = new Swiper(".swiper-container", {
-  pagination: {
-    el: ".swiper-pagination",
-  },
+  slidesPerView: 3,
+  centeredSlides: true,
+  spaceBetween: 30,
+  loop: true,
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".navnext",
+    prevEl: ".navpre",
   },
 });
+
+swiper.slideTo(1, 0);
