@@ -16,6 +16,10 @@
   position: relative;
 }
 
+.photolist .l-woodcard {
+  margin-bottom: 100px;
+}
+
 .l-cadre {
   position: absolute;
   width: 100%;
@@ -34,4 +38,12 @@
 
 .l-photographies {
   background: #30428e;
+}
+
+.l-drawlist img {
+  margin-bottom: 100px;
+}
+
+.l-projectspage h2 {
+  margin-bottom: -300px;
 }
