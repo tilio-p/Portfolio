@@ -15,7 +15,7 @@ Swiper.use([Navigation]);
 const swiper = new Swiper(".swiper-container", {
   slidesPerView: 3,
   centeredSlides: true,
-  spaceBetween: 30,
+  spaceBetween: 250,
   loop: true,
   navigation: {
     nextEl: ".navnext",

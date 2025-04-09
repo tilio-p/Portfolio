@@ -4,16 +4,16 @@
   box-sizing: border-box;
 }
 
-.swiper-container {
-  max-width: 800px;
-  height: 400px;
-  margin: 0 auto;
+.swiper-container img {
+  width: 100%;
 }
 
 .swiper-slide {
-  padding: 100px;
   text-align: center;
-  background: white;
+}
+
+.swiper-slide img {
+  width: 100%;
 }
 
 .swiper-slide h2 {
@@ -37,4 +37,9 @@
 }
   .carousel-next  {
   left: 80px;
+}
+
+.swiper-container {
+  margin-top: -20%;
+  z-index: 1;
 }
