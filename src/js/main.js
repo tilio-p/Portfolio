@@ -1,12 +1,13 @@
 var image = document.querySelector(".l-woodcard");
+if (image) {
+  var lightbox = document.querySelector(".lightbox");
 
-var lightbox = document.querySelector(".lightbox");
+  function openLightbox() {
+    lightbox.classList.add("is-open");
+  }
 
-function openLightbox() {
-  lightbox.classList.add("is-open");
+  image.addEventListener("click", openLightbox);
 }
-
-image.addEventListener("click", openLightbox);
 
 import Swiper, { Navigation } from "swiper";
 
