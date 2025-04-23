@@ -109,7 +109,7 @@ html,
   ); /* ou ta couleur personnalisée */
 }
 
-.l-projectspage a {
+.l-accueil a {
   display: flex;
   height: 49px;
   width: 150px;
@@ -128,9 +128,18 @@ html,
   margin-top: 50px;
   position: relative;
   z-index: 10;
+  margin-right: 150px;
 }
 
 .l-accueil {
   display: flex;
   justify-content: flex-end;
+}
+
+.l-projectspage {
+  background: #30428e;
+}
+
+.l-projectspage .l-footer {
+  color: black;
 }
