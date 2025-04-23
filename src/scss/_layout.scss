@@ -72,3 +72,65 @@
 .l-computerdesk:hover {
   transform: scale(1.5);
 }
+
+.l-book {
+  position: relative;
+}
+
+.l-ordi-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  overflow: hidden;
+}
+
+.l-ordi {
+  max-width: 100%;
+  height: auto;
+  width: 60%;
+}
+
+html,
+.l-video {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.l-video {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    #9ec2d0,
+    #20287c
+  ); /* ou ta couleur personnalisée */
+}
+
+.l-projectspage a {
+  display: flex;
+  height: 49px;
+  width: 150px;
+  padding: 7px 44px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #7592ca;
+  box-shadow: 7px 6px 4.8px 0px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  text-align: center;
+  font-family: "lacquer";
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 50px;
+  position: relative;
+  z-index: 10;
+}
+
+.l-accueil {
+  display: flex;
+  justify-content: flex-end;
+}
