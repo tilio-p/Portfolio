@@ -86,7 +86,6 @@
 }
 
 .l-ordi {
-  max-width: 100%;
   height: auto;
   width: 60%;
 }
@@ -142,4 +141,24 @@ html,
 
 .l-projectspage .l-footer {
   color: black;
+}
+
+.l-dessin .swiper-container {
+  margin-top: -350px;
+}
+
+.l-ordi-wrapper {
+  margin-top: -350px;
+}
+
+.ordi-video {
+  width: 80%;
+}
+.l-video {
+  background: #20287c;
+}
+
+.l-ordi {
+  top: 350px;
+  left: 345px;
 }
