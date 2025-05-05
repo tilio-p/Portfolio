@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
-    <link rel="stylesheet" href="scss/main.scss" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,6 +12,7 @@
       rel="stylesheet"
     />
   </head>
+
   <body class="l-dessin">
     <div class="container">
       <div class="row">
@@ -46,35 +44,86 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="contenu">
-                  <img src="Image/selection/dessins/souris.jpg" alt="" />
-                  <extends src="cardraw.html"></extends>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="contenu">
-                  <img src="Image/selection/dessins/droide.jpg" alt="" />
+                  <img
+                    src="Image/selection/dessins/souris.jpg"
+                    alt="Dessin souris"
+                  />
                   <extends
                     src="cardraw.html"
-                    locals='{"title":"back to wild"}'
+                    locals='{
+                    "title":"Souris",
+                    "date":"21 mai 2024",
+                    "legende":"Crayon soluble, papier canson"
+                  }'
                   ></extends>
                 </div>
               </div>
+
               <div class="swiper-slide">
                 <div class="contenu">
-                  <img src="Image/selection/dessins/couchersoleil.jpg" alt="" />
-                  <extends src="cardraw.html"></extends>
+                  <img
+                    src="Image/selection/dessins/droide.jpg"
+                    alt="Dessin droïde"
+                  />
+                  <extends
+                    src="cardraw.html"
+                    locals='{
+                    "title":"Back to Wild",
+                    "date":"15 avril 2020",
+                    "legende":"Bic et feutre à alcool"
+                  }'
+                  ></extends>
                 </div>
               </div>
+
               <div class="swiper-slide">
                 <div class="contenu">
-                  <img src="Image/selection/dessins/autriche.jpg" alt="" />
-                  <extends src="cardraw.html"></extends>
+                  <img
+                    src="Image/selection/dessins/couchersoleil.jpg"
+                    alt="Coucher de soleil"
+                  />
+                  <extends
+                    src="cardraw.html"
+                    locals='{
+                    "title":"Coucher de soleil",
+                    "date":"10 janvier 2023",
+                    "legende":"Crayon soluble, papier canson"
+                  }'
+                  ></extends>
                 </div>
               </div>
+
               <div class="swiper-slide">
                 <div class="contenu">
-                  <img src="Image/selection/dessins/crayon-1.jpg" alt="" />
-                  <extends src="cardraw.html"></extends>
+                  <img
+                    src="Image/selection/dessins/autriche.jpg"
+                    alt="Paysage autrichien"
+                  />
+                  <extends
+                    src="cardraw.html"
+                    locals='{
+                    "title":"Autriche",
+                    "date":"23 juillet 2022",
+                    "legende":"Crayon soluble, papier canson"
+                  }'
+                  ></extends>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="contenu">
+                  <img
+                    src="Image/selection/dessins/crayon-1.jpg"
+                    alt="Portrait au crayon"
+                  />
+                  <extends
+                    src="cardraw.html"
+                    locals='{
+                    "title":"Portrait",
+                    "date":"3 septembre 2023",
+                    "legende":"Crayon soluble, papier canson"
+                  }'
+                  ></extends>
                 </div>
               </div>
             </div>
